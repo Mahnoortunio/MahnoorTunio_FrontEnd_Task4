@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahnoor Tunio- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home" class="nav-logo">Mahnoor Tunio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Hi, I'm <span class="highlight">Mahnoor Tunio</span></h1>
+                <p class="hero-subtitle fade-in">Full Stack Developer & UI/UX Designer</p>
+                <p class="hero-description fade-in">I create beautiful and functional web experiences that make a difference.</p>
+                <div class="hero-buttons fade-in">
+                    <button class="btn btn-primary pulse" id="cta-btn">View My Work</button>
+                    <button class="btn btn-secondary" id="contact-btn">Get In Touch</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                   <div class="profile-image">
+    <img src="profile pic 1.jpg" alt="Mahnoor Tunio - Full Stack Developer">
+</div>
+                    <div class="floating-elements">
+                        <div class="element element-1"><i class="fab fa-html5"></i></div>
+                        <div class="element element-2"><i class="fab fa-css3-alt"></i></div>
+                        <div class="element element-3"><i class="fab fa-js"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title slide-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate full-stack developer with 3 years of experience creating web applications. I love turning complex problems into simple, beautiful designs.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in the mountains.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 data-count="10">0</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3 data-count="3">0</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3 data-count="09">0</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title slide-in">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom web applications built with modern technologies and best practices.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>Fast Performance</li>
+                        <li>Clean Code</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful and intuitive user interfaces that enhance user experience.</p>
+                    <ul class="service-features">
+                        <li>User Research</li>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <p>Cross-platform mobile applications that work seamlessly on all devices.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android</li>
+                        <li>Native Performance</li>
+                        <li>Offline Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title slide-in">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-skill="95">
+                            <span>HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="90">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-skill="80">
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="70">
+                            <span>MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title slide-in">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with React frontend and Node.js backend.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A responsive task management application with real-time updates.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Data visualization dashboard with interactive charts and reports.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>D3.js</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title slide-in">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>tuniomahnoor13@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>03143239601
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>NawabShah, Sindh
+                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <div class="btn-loading">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </div>
+                    </button>
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mahnoor Tunio</h3>
+                    <p>Creating amazing digital experiences with passion and precision.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+    <!-- Update with your actual social links -->
+    <a href="https://github.com/Mahnoortunio" class="social-link" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/mahnoor-tunio" class="social-link" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://twitter.com/yourusername" class="social-link" target="_blank" rel="noopener noreferrer" title="Twitter">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.instagram.com/mah__.noor/" class="social-link" target="_blank" rel="noopener noreferrer" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mahnoor Tunio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CTA Modal -->
+    <div id="cta-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Let's Work Together!</h2>
+            <p>I'm currently available for freelance work and new opportunities.</p>
+            <div class="modal-buttons">
+                <button class="btn btn-primary" id="modal-contact-btn">Contact Me</button>
+                <button class="btn btn-secondary" id="modal-close-btn">Later</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
